@@ -1,6 +1,15 @@
-cobra==0.31.1
-matplotlib==3.10.9
-numpy==1.21.5
-pandas==3.0.3
-scipy==1.17.1
-streamlit==1.57.0
+# 核心包
+streamlit>=1.32.0
+cobra>=0.31.0
+
+# 数据分析（正确、稳定、兼容版本）
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# 画图（正确版本！没有 3.10.9）
+matplotlib>=3.7.0
+plotly>=5.17.0
+
+# Excel/文件处理
+openpyxl>=3.1.0
