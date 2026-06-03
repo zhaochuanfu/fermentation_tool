@@ -13,3 +13,4 @@ plotly>=5.17.0
 
 # Excel/文件处理
 openpyxl>=3.1.0
+pymodbus>=3.5.0
