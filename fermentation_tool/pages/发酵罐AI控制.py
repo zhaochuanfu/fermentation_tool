@@ -18,11 +18,11 @@ if "messages" not in st.session_state:
 # PLC 全局配置
 if "plc_config" not in st.session_state:
     st.session_state.plc_config = {
-        "ip": "192.168.1.10",
+        "ip": "192.168.3.253",
         "port": 502,
-        "ph_addr": 0,
-        "temp_addr": 1,
-        "do_addr": 2
+        "ph_addr": 102,
+        "temp_addr": 100,
+        "do_addr": 104
     }
 
 # --------------------------
